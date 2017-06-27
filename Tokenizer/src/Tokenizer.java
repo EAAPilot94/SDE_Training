@@ -10,11 +10,6 @@ public class Tokenizer {
 		
 		String[] tokens = sentence.split(" ");
 		
-		int b = tokens.length - 1;
-		for(int i = tokens.length - 1; i ==0; i--){
-			System.out.println(tokens[i]);
-		}
-		
 		for (String token : tokens)
 			System.out.println(token);
 	}
